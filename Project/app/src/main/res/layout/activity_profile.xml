@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".ProfileActivity">
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/profile_visit_username"
+        android:layout_height="wrap_content"
+        android:text="Display UserName"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_light"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/profile_visit_user_status"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Display user status"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="80dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/profile_visit_send_req_btn"
+        android:layout_height="wrap_content"
+        android:text="Send Friend Request"
+        android:layout_marginTop="350dp"
+        android:textSize="16dp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_blue_dark"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_decline_friend_req_btn"
+        android:text="Decline Friend Request"
+        android:layout_marginTop="400dp"
+        android:textSize="16dp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_blue_dark"
+        />
+    
+
+</RelativeLayout>

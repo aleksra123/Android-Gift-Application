@@ -1,0 +1,7 @@
+<sql>
+    <statement> VALUES(1,'JOSE','MARTINS')</statement>
+    <statement> VALUES(2,'RUI','VALENTE')</statement>
+    <statement> VALUES(3,'MARIA','MANUEL')</statement>
+    <statement> VALUES(4,'MATILDE','SOUSA')</statement>
+    <statement> VALUES(5,'RITA','TEIXEIRA')</statement>
+</sql>

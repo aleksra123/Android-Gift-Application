@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PL4</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="buttonAdd">Add</string>
+    <string name="buttonCancle">Cancle</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="buttonDelete">Ok</string>
+    <string name="buttonEdit">Edit</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_my_wish_list">MyWishList</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_tester">tester</string>
+    <string name="title_activity_personal_wish_list">PersonalWishList</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_setup">SetupActivity</string>
+    <string name="title_activity_search_in_database">SearchInDatabase</string>
+    <string name="title_activity_all_users">AllUsersActivity</string>
+    <string name="title_activity_friends_list">FriendsList</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="title_activity_friends_wishlist">FriendsWishlist</string>
+
+</resources>

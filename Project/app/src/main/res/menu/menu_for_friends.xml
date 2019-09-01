@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view_wishlist"
+        android:checkable="false"
+        android:title="View Wishlist" />
+    <item
+        android:id="@+id/unfriend"
+        android:title="Unfriend"/>
+
+</menu>

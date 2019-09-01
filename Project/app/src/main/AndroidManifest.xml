@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pt.simov.pl4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mywishlist"
+        android:label="Wish List App"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+        <activity
+            android:name=".LogInActivity"
+            android:label="Wish List App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:label="@string/title_activity_details" />
+        <activity
+            android:name=".AddActivity"
+            android:label="Add" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".EditActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Wish list" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Home"
+            android:label="Home" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign Up" />
+        <activity
+            android:name=".MyWishList"
+            android:label="My Wish List" />
+        <activity
+            android:name=".SetupActivity"
+            android:label="Welcome to The WishList App!" />
+        <activity
+            android:name=".SearchInMyLocalWishList"
+            android:label="@string/title_activity_search_in_database" />
+        <activity
+            android:name=".AllUsersActivity"
+            android:label="@string/title_activity_all_users" />
+        <activity android:name=".ProfileActivity">
+           <intent-filter>
+               <action android:name="pt.simov.pl4_TARGET_NOTIFICATION"></action>
+               <category android:name="android.intent.category.DEFAULT"></category>
+           </intent-filter>
+        </activity>
+        <activity
+            android:name=".FriendsList"
+            android:label="@string/title_activity_friends_list" />
+        <activity
+            android:name=".Friends"
+            android:label="@string/title_activity_friends" />
+        <activity
+            android:name=".FriendsWishlist"
+            android:label="@string/title_activity_friends_wishlist"></activity>
+
+
+
+    </application>
+
+</manifest>

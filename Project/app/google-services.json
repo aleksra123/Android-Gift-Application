@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1003753547924",
+    "firebase_url": "https://wishlistapplication-de2f9.firebaseio.com",
+    "project_id": "wishlistapplication-de2f9",
+    "storage_bucket": "wishlistapplication-de2f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003753547924:android:0eccb8f27f3cef4b",
+        "android_client_info": {
+          "package_name": "pt.simov.pl4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003753547924-ekttcv1al19gdm7908uivbf1ldfdan22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA83qTboOdNCVVLP1-rpOgbJ0lViLWkZxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
